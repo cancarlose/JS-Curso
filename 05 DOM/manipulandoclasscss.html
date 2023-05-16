@@ -1,0 +1,33 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <style>
+      .highlight {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Título da página</h1>
+    <button id="change-class">Alterar classe</button>
+
+    <script>
+      // https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index
+
+      const titleEl = document.querySelector("#title")
+
+      const buttonEl = document.querySelector("#change-class")
+      buttonEl.addEventListener("click", () => {
+        // if (titleEl.classList.contains("highlight")) {
+        //   titleEl.classList.remove("highlight")
+        // } else {
+        //   titleEl.classList.add("highlight")
+        // }
+
+        titleEl.classList.toggle("highlight")
+      })
+    </script>
+
+
+    </body>
+</html>
