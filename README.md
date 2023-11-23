@@ -1,2 +1,2 @@
-# Projects-JS
-Projetos mais básicos programados com JavaScript.
+# JS-curso
+## Curso DevSamurai
